@@ -1,0 +1,7 @@
+{
+  "name": "OmniSense Web",
+  "description": "A WebView-styled diagnostic application featuring GPS tracking, BLE device scanning, and Push Notification simulation, enhanced with Gemini AI analysis.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
