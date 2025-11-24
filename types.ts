@@ -1,9 +1,19 @@
+
 export enum ViewState {
   DASHBOARD = 'DASHBOARD',
   GPS = 'GPS',
   BLE = 'BLE',
   NOTIFICATIONS = 'NOTIFICATIONS',
 }
+
+export type RootTabParamList = {
+  Home: undefined;
+  GPS: undefined;
+  Bluetooth: undefined;
+  Notifications: undefined;
+};
+
+export type RouteName = keyof RootTabParamList;
 
 export interface LocationData {
   latitude: number;
